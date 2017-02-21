@@ -39,7 +39,7 @@ def main():
     '''gui portion'''
     cad = Autocad(create_if_not_exists=True)
     root = Tk()
-    root.geometry('500x100+1000+500')
+    root.geometry('300x100+1000+500')
     button_compare = Button(root, text='Compare', command=lambda: compare(cad))
     button_loadatt = Button(root, text='Load_att', command=lambda: load_att(cad))
     button_compare.pack(pady=10, padx=10)
